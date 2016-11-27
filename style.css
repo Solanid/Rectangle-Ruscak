@@ -1,0 +1,41 @@
+table {
+	background-color: #e6f3ff;
+	border: 2px solid #339cff;
+	font-family: Arial;
+	font-size: 18px;
+	margin: auto;
+	padding: 10px;
+	text-align: right;
+	border-radius: 10px;
+	color: #0084ff;
+}
+td {
+	padding-bottom: 13px;
+}
+td > div {
+	position: absolute;
+}
+.errorDivElement { 
+	color: darkred; 
+	font-size: 12px;
+}
+input[type="button"] {
+	width: 160px;
+	border: none;
+	background-color: #339cff;
+	color: white;
+	font-size: 14px;
+	padding: 10px 0px;
+	border-radius: 20px;
+}
+input[type="number"] {
+	border-radius: 10px;
+	text-align: center;
+}
+#racArea, #racPerimeter {
+	background-color: #9fbfdf;
+}
+h1 {
+	text-align: center;
+	color: #0084ff;
+}

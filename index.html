@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Perimeter and area calculator of the rectangle.">
+	<meta name="author" content="Rastislav Ruščák">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="jscripts.js"></script>
+	<title>Calculator</title>
+</head>
+<body>
+	<h1>Perimeter and Area Calculator of the Rectangle</h1>
+	<table>
+		<tr>
+			<td>a =</td>
+			<td id="aValue"><input type="number" id="valueOfA"></td>
+		</tr>
+		<tr>
+			<td>a =</td>
+			<td id="bValue"><input type="number" id="valueOfB"></td>
+		</tr>
+		<tr>
+			<td>Area =</td>
+			<td><input type="number" id="racArea" disabled></td>
+		</tr>
+		<tr>
+			<td>Perimeter =</td>
+			<td><input type="number" id="racPerimeter" disabled></td>
+		</tr>
+		<tr>
+			<td id="calcArea"><input type="button" onclick="calculateArea()" value="Calculate Area"></td>
+
+			<td id="calcPerimeter"><input type="button" onclick="calculatePerimeter()" value="Calculate Perimeter"></td>
+		</tr>
+	</table>
+</body>
+</html>
